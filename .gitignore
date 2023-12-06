@@ -1,0 +1,21 @@
+# Global
+.*.swp
+.DS_Store
+
+data/
+logs/
+
+# PHPStorm
+.idea/
+
+# Netbeans
+nbproject/
+/nbproject/
+/nbproject/private/
+/nbproject/private/private.properties
+
+# VSCode
+.vscode/
+
+# SSL Certs
+etc/ssl/
