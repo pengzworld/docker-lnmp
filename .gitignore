@@ -2,8 +2,12 @@
 .*.swp
 .DS_Store
 
-data/
-logs/
+data/*
+!data/
+
+logs/*
+!logs/nginx
+!logs/php
 
 # PHPStorm
 .idea/
@@ -18,4 +22,5 @@ nbproject/
 .vscode/
 
 # SSL Certs
-etc/ssl/
+etc/ssl/*
+!etc/ssl
