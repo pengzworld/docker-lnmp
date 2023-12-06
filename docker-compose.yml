@@ -3,7 +3,7 @@ services:
     web:
         image: nginx:alpine
         volumes:
-            - "./etc/nginx/vhosts:/etc/nginx/conf.d"
+            - "./etc/vhosts:/etc/nginx/conf.d"
             #- "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
             - "./etc/ssl:/etc/ssl"
             - "./web:/var/www/html"
